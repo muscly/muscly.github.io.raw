@@ -7,6 +7,7 @@ author:     "LEE, Hyun-chang"
 header-img: "img/post-bg-06.jpg"
 lang:			en
 ref:			hello-jekyll
+comments:		true
 ---
 
 This is my first post in The Frame Drop.
