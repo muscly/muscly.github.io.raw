@@ -1,6 +1,6 @@
 # Site settings
-title: "The Frame Drop"
-header-img: img/home-bg.jpg
+header-img: "img/home-bg.jpg"
+title: The Frame Drop
 email: musclyhc@gmail.com
 copyright_name: The Frame Drop
 description: "Optimizing and Troubleshooting Mobile Games"
