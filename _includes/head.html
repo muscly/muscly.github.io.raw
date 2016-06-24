@@ -18,6 +18,9 @@
     <!-- Pygments Github CSS -->
     <link rel="stylesheet" href="{{ "/css/syntax.css" | prepend: site.baseurl }}">
 
+	<!-- Multilingual -->
+    <link rel="stylesheet" href="{{ "/css/multilingual.css" | prepend: site.baseurl }}">
+
     <!-- Custom Fonts -->
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
@@ -32,4 +35,13 @@
 
     {% feed_meta %}
 
+	<!-- Multilingual -->
+	{% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+	{% for post in posts %}
+		<link rel="alternate" hreflang="{{ post.lang }}" href="{{ post.url }}" />
+	{% endfor %}
+	{% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+	{% for page in pages %}
+		<link rel="alternate" hreflang="{{ page.lang }}" href="{{ page.url }}" />
+	{% endfor %}
 </head>

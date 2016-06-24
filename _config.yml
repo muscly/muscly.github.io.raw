@@ -1,17 +1,18 @@
 # Site settings
-title: Frame Drop
+title: The Frame Drop
 header-img: img/home-bg.jpg
 email: musclyhc@gmail.com
-copyright_name: Frame Drop
+copyright_name: The Frame Drop
 description: "Optimizing and Troubleshooting Mobile Games"
 baseurl: 
-url: "http://framedrop.xyz"
+url: "http://theframedrop.com
+#url: "http://localhost:4000"
 twitter_username: muscly
 github_username:  muscly
 facebook_username: hyunchang.lee.925
 email_username:  musclyhc@gmail.com
 
-# Google Analytics
+# Google Analyt<F3>ics
 # To enable google analytics, uncomment below line with a valid Google Tracking ID
 # google_tracking_id:
 
@@ -23,3 +24,7 @@ paginate: 5
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
 gems: [jekyll-paginate, jekyll-feed]
+
+#test
+future: true
+
