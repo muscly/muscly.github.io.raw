@@ -12,9 +12,9 @@ github_username:  muscly
 facebook_username: hyunchang.lee.925
 email_username:  musclyhc@gmail.com
 
-# Google Analyt<F3>ics
+# Google Analytics
 # To enable google analytics, uncomment below line with a valid Google Tracking ID
-# google_tracking_id:
+google_tracking_id: UA-9249739-4
 
 # Build settings
 markdown: kramdown
