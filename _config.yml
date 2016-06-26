@@ -5,8 +5,8 @@ email: musclyhc@gmail.com
 copyright_name: The Frame Drop
 description: "Optimizing and Troubleshooting Mobile Games"
 baseurl: 
-url: "http://theframedrop.com"
-#url: "http://localhost:4000"
+#url: "http://theframedrop.com"
+url: "http://localhost:4000"
 twitter_username: muscly
 github_username:  muscly
 facebook_username: hyunchang.lee.925

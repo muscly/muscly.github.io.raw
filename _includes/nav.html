@@ -16,9 +16,16 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a href="{{ site.baseurl }}/">Home</a>
-                </li>
-                {% for page in site.pages %}{% if page.title %}
+					{% if page.lang == 'kr' %}
+                    	<a href="{{ site.baseurl + "index.kr/" }}/">Home</a>
+                    {% else %}
+                    	<a href="{{ site.baseurl }}/">Home</a>
+					{% endif %}
+				</li>
+				<!-- Pages -->
+				{% assign pages=site.pages | where:"lang",page.lang %}
+				{% for page in pages %}
+				{% if page.title %}
 				{% if page.url != '/404.html' %}
                 <li>
                     <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
@@ -29,14 +36,14 @@
 				{% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
 				{% for post in posts %}
 				<li>
-					<a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang }}</a>
+					<a href="{{ post.url }}" class="{{ post.lang }} lang-sel">{{ post.lang }}</a>
 				</li>
 				{% endfor %}
 				<!-- Language selector (Pages)-->
 				{% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
 				{% for page in pages %}
 				<li>
-					<a href="{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a>
+					<a href="{{ page.url }}" class="{{ page.lang }} lang-sel">{{ page.lang }}</a>
 				</li>
 				{% endfor %}
             </ul>
