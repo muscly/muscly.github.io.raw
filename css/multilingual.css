@@ -3,6 +3,10 @@
 	padding-right: 3px;
 }
 
-.navbar-custom .nav li .en:lang(en), .navbar-custom .nav li .kr:lang(kr) {
+.navbar-custom .nav li .en:lang(en) {
+    color: red;
+}
+
+.navbar-custom .nav li .kr:lang(kr) {
     color: red;
 }

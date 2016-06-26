@@ -1,10 +1,10 @@
-{% assign posts=paginator.posts | where:"lang",page.lang %}
+{% assign posts=site.posts | where:"lang",page.lang %}
 {% for post in posts %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
         <h2 class="post-title">            {{ post.title }}
         </h2>
-        {% if post.subtitle %}
+        {% if post.subtitle %} 
         <h3 class="post-subtitle">
             {{ post.subtitle }}
         </h3>
@@ -30,5 +30,3 @@
     {% endif %}
 </ul>
 {% endif %}
-<!-- Use {% include youtube.html id="YOUTUBE ID" %} to embed a youtube video on a post or page. -->
-<iframe width="560" height="315" src="https://www.youtube.com/embed/{{ include.id }}" frameborder="0" allowfullscreen></iframe>
