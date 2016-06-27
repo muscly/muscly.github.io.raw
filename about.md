@@ -8,7 +8,7 @@ ref: about
 comments: true
 ---
 
-When I started making a mobile game, I couldn't find apprpriate materials and I didn't even know what to learn.
+When I started making my first mobile game, I couldn't find apprpriate materials and I didn't even know what to learn.
 
 I think it was because there was no organized curriculum and the environment was so diverse and changing so quickly that I had to profile my game on real devices to know what is true.
 
