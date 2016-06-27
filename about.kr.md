@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "About"
-description: "이 블로그는 무슨 블로그일까요?"
+description: "이 블로그는 어떤 블로그일까요?"
 header-img: "img/about-bg.jpg"
 lang: kr
 ref: about
