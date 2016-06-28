@@ -1,6 +1,7 @@
 .navbar-custom .nav li a.lang-sel {
 	padding-left: 3px;
 	padding-right: 3px;
+	color: silver;
 }
 
 .navbar-custom .nav li .en:lang(en) {
