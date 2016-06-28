@@ -9,7 +9,7 @@ fi
 
 # Push the chages of muscly.github.io.raw
 git add .
-git commit -m $1
+git commit -m "$1"
 git push
 
 # Build the site
@@ -22,6 +22,6 @@ cp -r _site/* ../muscly.github.io/
 pushd .
 cd ../muscly.github.io/
 git add .
-git commit -m $1
+git commit -m "$1"
 git push
 popd

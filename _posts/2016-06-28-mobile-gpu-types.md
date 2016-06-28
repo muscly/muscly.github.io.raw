@@ -1,11 +1,11 @@
 ---
 layout:     post
-title:      "모바일 GPU 종류"
-subtitle:   "모바일 GPU의 종류와 점유율을 확인하는 법, 그리고 GPU별 아키텍쳐 및 최적화 자료"
+title:      "Types of Mobile GPUs"
+subtitle:   "Types and Market Share of Mobil GPUs, and Resouces about GPU-specific Architecture and Optimization"
 date:       2016-06-28 00:30:00
-author:     "이현창"
+author:     "LEE, Hyun-chag"
 header-img: "img/post-bg-06.jpg"
-lang:       kr
+lang:       en
 ref:        mobile-gpu-types
 comments:    true
 ---
