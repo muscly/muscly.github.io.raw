@@ -10,7 +10,7 @@ ref:        mobile-gpu-types
 comments:    true
 ---
 
-# Mobile GPU Types
+# Mobile GPU Types  
 
 The mobile GPU market is dominated by these 3 mobile GPUs.
 
