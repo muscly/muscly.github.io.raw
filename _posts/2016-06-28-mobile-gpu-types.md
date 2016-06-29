@@ -20,17 +20,17 @@ The mobile GPU market is dominated by these 3 mobile GPUs.
 
 All iOS devices have ImageTec PowerVR while Android devices have several types of GPU. 
 
-# How to Find Market Share Information on Unity Website
+# How to Find Market Share Information on the Unity Website
 
-You can find market share information on the following URL. 
+You can find market share information at the following URL. 
 
 * [http://hwstats.unity3d.com/mobile/gpu.html](http://hwstats.unity3d.com/mobile/gpu.html)
 
-These statistic data were collected from Unity games. The games built with free Unity version are forced to send analytics data, while Unity Pro provides an option to disable this feature.
+This statistical data was collected from Unity games. The games built with the free Unity version are forced to send analytics data, while Unity Pro provides an option to disable this feature.
 
 # GPU Architecture and Optimization Resources 
 
-These are resources about architecture and optimization provided by GPU vendors. You can find GPU-specific features, Mobile GPU architectures of these days and common optimization guidelines.
+These are resources about architecture and optimization provided by GPU vendors. You can find GPU-specific features, modern mobile GPU architecture and common optimization guidelines.
 
 * [http://community.imgtec.com/developers/powervr/documentation/](http://community.imgtec.com/developers/powervr/documentation/)
 * [http://infocenter.arm.com/help/topic/com.arm.doc.dui0555a/DUI0555A_mali_optimization_guide.pdf](http://infocenter.arm.com/help/topic/com.arm.doc.dui0555a/DUI0555A_mali_optimization_guide.pdf)
