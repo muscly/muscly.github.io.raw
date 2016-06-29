@@ -3,7 +3,7 @@ layout:     post
 title:      "Types of Mobile GPU"
 subtitle:   "Mobile GPU Types and Market Share, Resouces about GPU-specific Architecture and Optimization"
 date:       2016-06-28 00:30:00
-author:     "LEE, Hyun-chag"
+author:     "LEE, Hyun-chang"
 header-img: "img/post-bg-06.jpg"
 lang:       en
 ref:        mobile-gpu-types
